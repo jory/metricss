@@ -1,0 +1,28 @@
+{
+  "name": "metricss",
+  "version": "0.0.0",
+  "description": "dGet to Know Your CSS",
+  "main": "metricss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jory/metricss.git"
+  },
+  "keywords": [
+    "css",
+    "metrics"
+  ],
+  "author": "Jory Graham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jory/metricss/issues"
+  },
+  "homepage": "https://github.com/jory/metricss",
+  "dependencies": {
+    "css-parse": "~1.7.0",
+    "commander": "~2.1.0",
+    "underscore": "~1.5.2"
+  }
+}
