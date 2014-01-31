@@ -39,6 +39,7 @@ fs.createReadStream(cli.args[0])
       })
       .compact()
       .flatten()
+      .uniq()
       .sortBy(function(selector) {
         var matches = selector.match(/[ #.]/g);
         return matches ? matches.length : 0;
@@ -46,5 +47,5 @@ fs.createReadStream(cli.args[0])
       .reverse()
       .value();
 
-    console.log(output);
+    console.log(output.join('\n'));
   })
